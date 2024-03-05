@@ -1,0 +1,34 @@
+{
+        "_comment": "Везде вместо spbu идентификатор вашего университета",
+        "uni_name": "spbu",
+        "db_name": "university_assistant", 
+        "table_name": {
+                "basic": "spbu_basic_data",
+                "news": "spbu_news_data",
+                "timetable": "spbu_timetable_data" 
+        },
+        
+        "block_table_match": {
+            "_comment": "Сопоставление парсера блока и таблицы, в которую сохраняются данные",
+            "guestbook": "basic",
+            "edu_programms": "basic",
+            "calendar": "basic",
+            "news": "news"
+        },
+    
+        "block_refresh_time": {
+                "_comment": "Количество дней, через которое блок должен быть повторно спарсен/обновлен",
+                "guestbook": 10,
+                "edu_programms": 100,
+                "calendar": 100,
+                "news": 10
+        },
+    
+        "block_life_time": {
+                "_comment": "Максимальное количество месяцев хранения страницы блока в БД",
+                "guestbook": 12,
+                "edu_programms": 12,
+                "calendar": 12,
+                "news": 6
+        }
+    }

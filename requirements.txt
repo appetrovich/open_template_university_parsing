@@ -1,0 +1,10 @@
+pandas==2.1.2
+requests==2.31.0
+urllib3==2.0.7
+SQLAlchemy==2.0.23
+psycopg2==2.9.9
+textract~=1.6.5
+python-dotenv~=1.0.1
+PyPDF2~=3.0.1
+beautifulsoup4~=4.8.2
+selenium==4.17.2
