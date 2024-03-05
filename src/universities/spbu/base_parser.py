@@ -4,7 +4,7 @@ import time
 import random
 import requests
 import textract
-import PyPDF2 #jn
+import PyPDF2 #можно использовать эту библиотеку, если с textract проблемы
 
 from config import config
 
