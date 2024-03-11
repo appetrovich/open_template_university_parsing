@@ -1,7 +1,7 @@
 {
         "_comment": "Везде вместо spbu идентификатор вашего университета",
         "uni_name": "spbu",
-        "db_name": "university_assistant", 
+        "db_name": "database_name", 
         "table_name": {
                 "basic": "spbu_basic_data",
                 "news": "spbu_news_data",
